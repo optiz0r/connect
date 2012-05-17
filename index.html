@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Device Connection</title>
+
+        <!-- JQuery //-->
+        <script src="js/jquery-1.7.1.min.js"></script>
+
+        <!-- Bootstrap //-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <!-- DataTables //-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css" />
+        <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+
+        <!-- Local //-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script type="text/javascript" src="js/sihnon-framework.js"></script>
+        <script type="text/javascript" src="js/hosts.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top no-print">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="#">Device Connection</a>
+
+                    <ul class="nav">
+                        <li class="active"><a href="#">Devices</a></li>
+                        <li class=""><a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div><!-- /container-fliud -->
+        </div><!-- /topbar -->
+
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <h1>
+                        Device Connection
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <table id="devices" class="table table-bordered table-collapsed table-striped">
+                    <thead>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Service</th>
+                            <th>Site</th>
+                            <th>Device</th>
+                            <th>Description</th>
+                            <th>Access</th>
+                        </tr>
+                    </thead>
+                    <tbody id="device-list">
+                    </tbody>
+                </table> 
+            </div>
+        </div>
+    </body>
+</html>
